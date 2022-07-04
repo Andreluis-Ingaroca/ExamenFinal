@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ef-service:
+    image: ef-service:latest
+    ports:
+      - 8091:8091
+    networks:
+      - ingaroca
+networks:
+  ingaroca:
+
+
